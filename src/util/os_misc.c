@@ -56,7 +56,6 @@
 #  define LOG_TAG "MESA"
 #  include <unistd.h>
 #  include <log/log.h>
-#  include <cutils/properties.h>
 #elif DETECT_OS_LINUX || DETECT_OS_CYGWIN || DETECT_OS_SOLARIS || DETECT_OS_HURD
 #  include <unistd.h>
 #elif DETECT_OS_OPENBSD || DETECT_OS_FREEBSD

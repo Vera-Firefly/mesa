@@ -135,6 +135,7 @@ os_get_option(const char *name)
    const char *opt = getenv(name);
    return opt;
 }
+#endif
 
 static struct hash_table *options_tbl;
 static bool options_tbl_exited = false;

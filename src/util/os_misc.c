@@ -128,6 +128,7 @@ os_log_message(const char *message)
 }
 
 #if DETECT_OS_WINDOWS
+#else
 const char *
 os_get_option(const char *name)
 {

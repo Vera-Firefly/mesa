@@ -29,6 +29,10 @@
 #include "d3d12/d3d12_public.h"
 #endif
 
+#ifdef GALLIUM_ZINK
+#include "zink/zink_public.h"
+#endif
+
 #if defined(GALLIUM_ASAHI) && __APPLE__
 #include "asahi/agx_public.h"
 #endif

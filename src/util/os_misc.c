@@ -127,11 +127,6 @@ const char *
 os_get_option(const char *name)
 {
    const char *opt = getenv(name);
-#if DETECT_OS_ANDROID
-   if (!opt) {
-      opt = os_get_android_option(name);
-   }
-#endif
    return opt;
 }
 #endif /* !EMBEDDED_DEVICE */
